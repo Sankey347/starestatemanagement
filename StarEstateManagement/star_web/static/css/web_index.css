@@ -1,0 +1,280 @@
+  /*web_index*/
+  #web_box .el-menu-item a:hover{
+    color: black !important;
+  }
+  #pay a,#repairs a,#admin a{
+    color: #606266;
+  }
+  #pay:hover a,#repairs:hover a,#admin:hover a{
+    color: #66b1fF;
+  }
+  #web_box{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #E9EEF3;
+  }
+  #web_header{
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+  }
+  .el-dropdown-link {
+    cursor: pointer;
+    color: #909399;
+  }
+  .el-menu--horizontal>.el-menu-item.is-active {
+    border:none;
+    color: #303133;
+  }
+  .web-content{
+    width: 100%;
+    height: 50%;
+    margin: 20px auto 0;
+  }
+  #web_box b{
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    display: block;
+    line-height: 20px;
+  }
+  .web-content-item{
+    width: 24%;
+    height: 80%;
+    display: inline-block;
+    margin:10px 4px;
+  }
+  .web-content-item  img{
+    width: 301px;
+    height: 256px;
+    margin-bottom: 10px;
+  }
+  .el-carousel__item img {
+    width: 100%;
+    height: 600px;
+    line-height: 600px;
+  }
+  .web-content-item a{
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+    color: #303133;
+  }
+  .web-content:last-child{
+    width: 95%;
+    height: 50%;
+  }
+  #customer_service{
+    top: 400px;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+  }
+  #customer_service img{
+    border-radius: 5px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .el-footer{
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .text-center{
+    height: 100px;
+    background-color: #E9EEF3;
+  }
+  .target_menu{
+    color: white !important;
+    background-color: red;
+  }
+  hr{
+    margin-bottom: 20px;
+  }
+  #contact_us{
+    width: 100%;
+    height: 140px;
+    margin-top: 20px;
+    color: #888888;
+    background-color: #292929;
+  }
+  #contact_us div{
+    margin:30px 100px;
+    display: inline-block;
+  }
+  #contact_us img{
+    margin-bottom: 10px;
+  }
+  #copyright_message{
+    width: 100%;
+    height: 60px;
+    padding-top: 40px;
+    color: #888888;
+    background-color: #212121;
+  }
+  #copyright_message a{
+    color: #409eff;
+  }
+  .good{
+    margin-top: 5px;
+    margin-left: 60px;
+    display: inline-block;
+  }
+  .time{
+    margin-top: 5px;
+    margin-right: 60px;
+    display: inline-block;
+  }
+  .good img,.time img{
+    width: 20px;
+    height: 20px;
+    margin: 0 0 -5px 4px;
+  }
+  .good button{
+    border: none;
+  }
+  .el-dropdown{
+    line-height: 60px;
+  }
+  #info p{
+    font-size: 10px;
+    color: #888888;
+    text-align: center;
+    margin: 2px
+  }
+  #head_portrait{
+    width: 40px;
+    height: 40px;
+    margin-bottom: -15px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  .el-main{
+    padding: 0;
+  }
+  .user_info img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+  }
+  /*repairs、payments*/
+  .box_card{
+    height: 730px;
+  }
+  .box-card img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+  }
+  #feedback{
+    margin-right: 30px;
+  }
+  /*#refresh{*/
+  /*  margin-left: 10px;*/
+  /*}*/
+  #data_list{
+    width: 90%;
+    margin: 5px auto;
+  }
+  .page_title{
+    margin: -20px 0 5px;
+    padding: 10px 0;
+    background-color: #67C23A;
+    color: white;
+  }
+  .page_num{
+    width: 100%;
+    text-align: center;
+  }
+  /*read_message*/
+  .message-card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #content{
+    width: 60%;
+    height: auto;
+    padding: 40px;
+    margin: 0 auto;
+    border: 1px solid #cdcdcd;
+  }
+  #content_footer{
+    text-align: left;
+    margin: 0 20px;
+  }
+  #content_footer > div{
+    margin: 10px 0;
+  }
+  #content_footer b{
+    display: block;
+    margin: 5px 0;
+  }
+  .reply li{
+    list-style: none;
+    margin: 5px 0;
+  }
+  .reply li>img{
+    width: 40px;
+    height: 40px;
+    margin: 5px 20px;
+    border-radius: 50%;
+    float: left;
+  }
+  #comment{
+    margin-bottom: 10px;
+  }
+  #comment img{
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+  }
+  .message-card span{
+    color: #909399;
+    margin-top: 5px;
+  }
+  .comment_img{
+    float: right;
+  }
+  .comment_img img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+  }
+  .comment_time{
+    margin-left: 79px;
+  }
+  .el-button{
+    margin-top: 5px;
+  }
+  .write_reply{
+    display: none;
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 10%;
+    text-align: right;
+  }
+  .son_comment{
+    padding: 1px 5px;
+    margin-left: 80px;
+  }
+  .look_comment{
+    margin-top: -10px;
+    margin-left: 80px;
+  }
+  .infinite-list-wrapper{
+    height: 300px;
+  }
+  .infinite-list-wrapper::-webkit-scrollbar{
+    display: none;
+  }
+  .reply_title{
+    margin-left: 80px;
+  }
